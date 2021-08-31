@@ -1,5 +1,6 @@
 {
    "system":{
+   "system":{
       "uptime":"145 days, 19 hours, 44 minutes",
       "serial_number":"U02010000000104",
       "version":{
@@ -9,14 +10,16 @@
          "last_update":"Mon Aug 2 13:33:20 2021"
       },
       "updated_at":"2021-08-31 12:13:17+00:00"
-   },
+   }},
+   "cpu":{
    "cpu":{
       "user_percent":7.8,
       "nice_percent":0.0,
       "system_percent":1.6,
       "idle_percent":90.2,
       "updated_at":"2021-08-31 12:13:17+00:00"
-   },
+   }},
+   "disk":{
    "disk":{
       "degraded_raid_volume":{
          "output":[
@@ -43,7 +46,8 @@
          "used_bytes":14552104960,
          "usage_percent":23.15
       }
-   },
+   }},
+   "network":{
    "network":{
       "interfaces":{
          "brain":{
@@ -223,7 +227,8 @@
          ],
          "count":1
       }
-   },
+   }},
+   "sensors":{
    "sensors":[
       {
          "name":"b37-vx80sd-ns-bld-04",
@@ -280,5 +285,5 @@
          "version":"6.10.0-13-19",
          "product_name":"X80"
       }
-   ]
+   ]}
 }
